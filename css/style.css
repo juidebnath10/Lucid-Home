@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*global css for up-side*/
+
+.up-side{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.up-side h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #008ed6;
+}
+
+.up-side h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding: 0px 0px 5px;
+}
+
+/*header css start*/
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;	
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin: 0px 10px 0px 0px;
+    color: #fff;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: auto;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-item .active{
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: auto;
+}
+
+.header .navbar-toggler-icon{
+    background-color: #fff;
+}
+
+.header .banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.header .banner .inner-banner{
+	width: 100%;
+	margin: 20px 0px 0px;
+	padding: 20px 0px 0px;
+}
+.header .banner .inner-banner h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #008ed6;
+
+}
+.header .banner .inner-banner h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 15px 0px 0px;
+    color: #fff;
+}
+.header .banner .inner-banner p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 20px 0px 35px;
+    color: #999999;
+}
+
+.header .banner .double-button .btn-primary{
+    padding: 20px 30px;
+    margin: 0px 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 1s;
+}
+
+.header .banner .double-button .btn-primary:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+
+.header .banner .double-button .btn-primary:focus{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #008ed6;
+}
+
+.header .banner .double-button .btn-info{
+    padding: 20px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #999;
+    transition: 1s;
+}
+
+.header .banner .double-button .btn-info:hover{
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+.header .banner .double-button .btn-info:focus{
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+}
+
+/* header css end */
+
+/*feature css start*/
+.feature{
+	width: 100%;
+	padding: 40px 0px;
+
+}
+
+.feature .up-side{
+	text-align: center;
+}
+
+.feature .inner-feature{
+	width: 100%;
+	padding: 60px 0px;
+	text-align: center;
+}
+.feature .inner-feature .icon{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	margin: 0px auto;
+	border: 1px solid #cbced0;
+	border-radius: 100%;
+}
+
+.feature .inner-feature h4{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #1a1a1a;
+    margin: 30px 0px 10px;
+}
+
+.feature .inner-feature p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #999999;
+    margin: 0px 0px;
+}
+
+
+/*feature css end*/
+
+/*about css start*/
+.about{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #cbced0;
+}
+
+.about .inner-about{
+	width: 100%;
+	margin: 40px 0px 0px;
+}
+
+.about .inner-about p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px;
+    color: #999999;
+}
+
+.about .inner-about ul li img {
+	width: 12px;
+	height: 15px;
+	margin: 0px 10px 0px 0px;
+}
+
+.about .inner-about ul{
+	padding: 18px 0px 0px;
+	margin: 0px;
+}
+
+.about .inner-about ul li{
+	list-style: none;
+	margin: 8px 0px;
+}
+
+.about .inner-about ul li a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #1b1b1b;
+}
+
+.about .up-side{
+	width: 100%;
+	padding: 10px 0px 0px;
+}
+
+/*about end*/
+
+/*short css start*/
+.short{
+	width: 100%;
+	padding: 40px 10px 0px 0px;
+	background: #f2f2f2;
+}
+
+.short p{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px;
+	color: #999999;
+}
+
+.short .me{
+	text-align: left;
+}
+
+.short .me img{
+	width: 700px;
+	height: 370px;
+}
+/* short css end */
